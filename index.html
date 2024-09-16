@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Waleska Silva, Sukiih">
+    <meta name="description" content="Kittie Cat Landing Page">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./assets/styles/styles.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Fleur+De+Leah&family=Playwrite+CU:wght@100..400&display=swap" rel="stylesheet">
+    <title>Kittie Cat Landing Page</title>
+</head>
+<body>
+    <header id="header">
+        <div class="logo">
+            <img src="./assets/img/cat-logo3.jpg" alt="Kittie Cat logo" id="header-img">
+            <span>Kittie Cat</span>
+        </div>
+        <nav id="nav-bar">
+            <ul>
+                <li ><a href="#Servicios" class="nav-link">Servicios</a></li>
+                <li ><a href="#Cuidados" class="nav-link">Cuidados</a></li>
+                <li ><a href="#Ofertas" class="nav-link">Ofertas</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <section id="hero">
+            <h2>Suscríbete a nuestro boletín mensual</h2>
+            <form id="form" action="https://www.freecodecamp.com/email-submit" method="post">
+                <input id="email" type="email" name="email" placeholder="Enter your email address" required>
+                <input id="submit" type="submit" value="Get Started" class="btn">
+            </form>
+        </section>
+
+        <section id="Servicios">
+            <div class="grid">
+                <div class="icon"><i class="fas fa-3x fa-fish" aria-hidden="true"></i></div>
+                <div class="descripcion">
+                    <h2>Alimentos Premium</h2>
+                    <p>Solo los mejores ingredientes y los mejores precios</p>
+                </div>
+            </div>
+            <div class="grid">
+                <div class="icon"><i class="fas fa-3x fa-truck" aria-hidden="true"></i></div>
+                <div class="descripcion">
+                    <h2>Envios rápidos</h2>
+                    <p>Nos aseguramos de que tus compras lleguen a tiempo </p>
+                </div>
+            </div>
+            <div class="grid">
+                <div class="icon"><i class="fas fa-3x fa-gift" aria-hidden="true"></i></div>
+                <div class="descripcion">
+                    <h2>Regalos </h2>
+                    <p>Regalos y ofertas especiales para nuestros clientes </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="Cuidados">
+            <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/J3NAYXXyBVI?si=Bj89PKVTYnphb-v7" frameborder="0" allowfullscreen></iframe>
+        </section>
+
+        <section id="Ofertas">
+            <div class="product" id="food">
+                <div class="level">Cat food</div>
+                <h2>$50</h2>
+                <ol>
+                    <li>Lorem ipsum.</li>
+                    <li>Lorem ipsum.</li>
+                    <li>Lorem ipsum dolor.</li>
+                    <li>Lorem ipsum.</li>
+                </ol>
+                <button class="btn">Select</button>
+            </div>
+
+            <div class="product" id="toys"> 
+                <div class="level">Cat toys</div>
+                <h2>$20</h2>
+                <ol>        
+                    <li>Lorem ipsum.</li>
+                    <li>Lorem ipsum.</li>
+                    <li>Lorem ipsum dolor.</li>
+                    <li>Lorem ipsum.</li>
+                </ol>
+                <button class="btn">Select</button>
+            </div>
+
+            <div class="product" id="scratcher">
+                <div class="level">Cat scratcher</div>
+                <h2>$35</h2>
+                <ol>
+                    <li>Lorem ipsum.</li>
+                    <li>Lorem ipsum.</li>
+                    <li>Lorem ipsum dolor.</li>
+                    <li>Lorem ipsum.</li>
+                </ol>
+                <button class="btn">Select</button>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <ul>
+            <li><a href="#form">Privacy</a></li>
+            <li><a href="#form">Terms</a></li>
+            <li><a href="#form">Contact</a></li>
+        </ul>
+        <p>Copyright &copy; <time datetime="2024-09-13">2024</time></p>
+        <p>Sukiih</p>
+    </footer>
+</body>
+</html>
